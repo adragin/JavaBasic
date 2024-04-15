@@ -17,15 +17,16 @@ public class Student {
     public Student() {
     }
 
+    public Student(int id){
+        this.id = id;
+    }
+
     public Student(int id, String Name, int age){
         this.id = id;
         this.Name = Name;
         this.age = age;
     }
 
-    public Student(int id){
-        this.id = id;
-    }
 
     public Student(int id, String Name){
         this.id = id;

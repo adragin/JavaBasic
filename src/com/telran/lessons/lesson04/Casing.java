@@ -3,10 +3,11 @@ package com.telran.lessons.lesson04;
 public class Casing {
     public static void main(String[] args) {
 
-        char a = 97;
+        char a = 0;
 
-        System.out.println("a= " + a);
-
+        for (int i = 0; i < 100; i++) {
+            System.out.println((char)(a+i) + " = " + (a+i));
+        }
 
     }
 }
