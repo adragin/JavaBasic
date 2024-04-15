@@ -31,8 +31,5 @@ public class StringTest {
         String strNew = str1.substring(0, str1.length()/2) + str2.substring(str2.length()/2);
         System.out.println(strNew);
 
-
-        str1.
-
     }
 }
