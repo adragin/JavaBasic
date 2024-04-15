@@ -13,7 +13,7 @@ public class NumSys {
         for (int i = hexNum.length()-1; i >=0 ; i--) {
             int digit = hexNum.charAt(i);
             digit = Character.digit(digit, 16);
-            decNum += digit * Math.pow(16, i);
+            decNum = decNum + (int) (digit * Math.pow(16, i));
         }
         System.out.println("Число " + hexNum + " в 16-ричной системе = " + decNum + " в 10-ричной системе");
 
@@ -32,22 +32,14 @@ public class NumSys {
 
         //124 в десятичной, переведите в 2-ичную
         int startNum = 124;
-        String binarNum = "";
+        StringBuilder binarNum = new StringBuilder();
         int decimNum = startNum;
         while(decimNum > 0) {
             int newBinChar = (decimNum % 2);
             decimNum = decimNum / 2;
-            binarNum = binarNum + newBinChar;
+            binarNum.append(newBinChar);
         }
-        String reversedBinarNum = "";
-        for (int i = binarNum.length() - 1; i >= 0; i--) {
-            reversedBinarNum = reversedBinarNum + binarNum.charAt(i);
-        }
-        System.out.println("Число " + startNum + " в 10-ричной системе = " + reversedBinarNum + " в двоичной системе");
-
-
-
-
+        System.out.println("Число " + startNum + " в 10-ричной системе = " + binarNum.reverse() + " в двоичной системе");
 
     }
 
