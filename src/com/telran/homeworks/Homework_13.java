@@ -11,9 +11,9 @@ public class Homework_13 {
         int x = 0, y = 0;
         Scanner sc = new Scanner(System.in);
 
-        while(true){
+        while (true) {
             String commmand = sc.next();
-            switch (commmand){
+            switch (commmand) {
                 case "left":
                     x--;
                     System.out.println("I move left");
