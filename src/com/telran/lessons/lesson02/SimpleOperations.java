@@ -4,7 +4,7 @@ package com.telran.lessons.lesson02;
  *              Это просто лекция 2 по Java Basic
  * */
 
-public class Test {
+public class SimpleOperations {
     public static void main(String[] args) {
 
 //        Создать класс Test.

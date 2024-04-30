@@ -18,8 +18,7 @@ public class Homework_02 {
         int num = 345;
         System.out.println("Число " + num + " : "
                 + (num / 100) + ", "
-                + (num /10 - ((num / 100) * 10)) + ", "
+                + (num / 10 % 10) + ", "
                 + num % 10);
-
     }
 }

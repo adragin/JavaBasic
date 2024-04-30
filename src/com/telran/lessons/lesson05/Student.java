@@ -22,22 +22,30 @@ public class Student {
         this.Name = Name;
         this.age = age;
     }
-
+    public Student(int id, int age, String Name){
+        this.id = id;
+        this.Name = Name;
+        this.age = age;
+    }
+//    Student(1, null, 0)
     public Student(int id){
         this(id,null,0);
     }
-
-
+//    public Student(int id){
+//        this.id = id;
+//    }
     public Student(int id, String Name){
         this(id, Name, 0);
     }
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Student {" +
                 "id=" + id +
-                ", Name='" + Name + '\'' +
+                ", Name='" + Name + "'" +
                 ", age=" + age +
                 '}';
     }
+
+
 }
