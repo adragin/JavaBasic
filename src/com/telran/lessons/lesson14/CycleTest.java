@@ -22,7 +22,7 @@ public class CycleTest {
         do {
             System.out.println("Я в теле DO");
             i++;
-        } while (i < 0);
+        } while (i < 5);
 
 //        Реализуйте меню выбора игрока (Elf or Orc and Exit)
 //      a. Отобразите меню
