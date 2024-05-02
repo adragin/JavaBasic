@@ -22,8 +22,9 @@ public class Praktic3 {
                 qtyZero++;
             }
         }
-        System.out.printf("Количество положительных - %d, количество отрицательных - %d, количество нулей -%d", qtyPos, qtyNeg, qtyZero);
-
-
+        System.out.printf("""
+                Количество положительных - %d,
+                количество отрицательных - %d,
+                        количество нулей - %d""", qtyPos, qtyNeg, qtyZero);
     }
 }
