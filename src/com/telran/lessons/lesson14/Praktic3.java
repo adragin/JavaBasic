@@ -2,7 +2,7 @@ package com.telran.lessons.lesson14;
 
 import java.util.Scanner;
 
-public class Praktik3 {
+public class Praktic3 {
     public static void main(String[] args) {
 // 1) Подсчитайте, сколько среди данных n чисел нулей, положительных чисел и отрицательных чисел.
 
